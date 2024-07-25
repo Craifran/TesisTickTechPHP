@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Blanco */
+    text-align: center; /* Centrar contenido */
+  }
+  
+  h1 {
+    color: #333; /* Negro */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario */
+  .register-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff; /* Blanco */
+    border: 1px solid #ddd; /* Gris claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Redondear esquinas */
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333; /* Negro */
+  }
+  
+  .register-form input[type="text"],.register-form input[type="email"],.register-form input[type="password"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .register-form input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #FF3737; /* Rojo */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-form input[type="submit"]:hover {
+    background-color: #FF6969; /* Rojo oscuro */
+  }
+  
+  /* Estilos adicionales */
+  .register-form.required {
+    color: #FF3737; /* Rojo */
+  }
+  
+  .register-form.error {
+    color: #FF3737; /* Rojo */
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Centrar formulario */
+  .register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

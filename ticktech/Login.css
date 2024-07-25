@@ -1,0 +1,91 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Gris claro */
+  }
+  
+  /* Estilos para el formulario */
+  
+  form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Negro */
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #c00; /* Rojo */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a00; /* Rojo oscuro */
+  }
+  
+  /* Estilos para el título */
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #c00; /* Rojo */
+  }
+  
+  /* Estilos para el fondo */
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #fff, #f2f2f2); /* Gradiente blanco y gris claro */
+    z-index: -1;
+  }
+  
+  /* Estilos para el logo */
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url("logo.png"); /* Reemplaza con tu logo */
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
